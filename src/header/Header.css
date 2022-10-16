@@ -1,0 +1,10 @@
+.mynav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+ul{
+    list-style: none;
+    
+}
