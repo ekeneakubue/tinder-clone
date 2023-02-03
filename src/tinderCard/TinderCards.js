@@ -28,6 +28,13 @@ export default function TinderCards() {
     <div className='tinderCards'>
     
         <div className='tinderCards__cardContainer'>
+      
+            {/* Start Preloader */}
+            <div class="spinner-border m-5" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>  
+            {/* End Preloader */}
+
             {people.map((person)=>(
                 <TinderCard
                     className='swipe'
